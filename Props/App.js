@@ -1,3 +1,6 @@
+// ## Props Functional Component
+
+
 
 // import './App.css';
 // import Student from './Student'
