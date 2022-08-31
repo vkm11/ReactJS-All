@@ -8,7 +8,9 @@ function App(){
   return(
     <div className="App">
       <h1> Pass function as props </h1>
+     <div style={{float:'right'}}>
       <User data={getData} />
+     </div>
     </div>
   );
 }
