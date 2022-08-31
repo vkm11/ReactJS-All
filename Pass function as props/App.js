@@ -4,6 +4,7 @@ function App(){
   function getData()
   {
     alert("hello from app")
+  }
   return(
     <div className="App">
       <h1> Pass function as props </h1>
