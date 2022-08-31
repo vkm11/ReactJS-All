@@ -32,8 +32,8 @@ function Profile()
       {
         loggedIn==1?       // if
         <h1> Welcome User1</h1>
-        :loggedIn==2?<h1> Welcome User2</h1>
-        :<h1>Welcome User3 </h1>
+        :loggedIn==2?<h1> Welcome User2</h1>   //else-if  
+        :<h1>Welcome User3 </h1>   // else
       } 
     </div>
   )
