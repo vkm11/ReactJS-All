@@ -4,8 +4,9 @@ function App()
 {
   return(
    <div className="App">
-    <Profile />
+    
     <h1>Conditional Rendering </h1>
+    <Profile />
    </div>
   );
 }
