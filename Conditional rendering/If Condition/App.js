@@ -1,9 +1,10 @@
 import './App.css'
-import 
+import Profile from './Profile' 
 function App()
 {
   return(
    <div className="App">
+    <Profile />
     <h1>Conditional Rendering </h1>
    </div>
   );
