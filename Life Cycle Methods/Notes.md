@@ -1,6 +1,6 @@
-1) mounting: means birth
-2) updating: means update
-3) unmounting: means dead or expired
+1) mounting: means birth (componentDidMount)
+2) updating: means update (componentDidUpdate)
+3) unmounting: means dead or expired (componentWillUnmount)
 
 # When to use 
 - When Component is loaded
