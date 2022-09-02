@@ -1,6 +1,6 @@
 ## life cycle methods in class component
 
-
+## using hooks we can write life cycle methods in functional component.
 
 
 1) mounting: means birth (componentDidMount)
