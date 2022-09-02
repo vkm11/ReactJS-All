@@ -8,3 +8,6 @@
 - When Component is updated with state and props
 
 - when Component is removed
+
+## fisrt Call : In between shouldComponentUpdate and componentDidUpdate
+- shouldComponentUpdate
