@@ -1,3 +1,8 @@
+## life cycle methods in class component
+
+
+
+
 1) mounting: means birth (componentDidMount)
 2) updating: means update (componentDidUpdate)
 3) unmounting: means dead or expired (componentWillUnmount)
