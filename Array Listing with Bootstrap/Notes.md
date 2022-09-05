@@ -20,16 +20,16 @@ function App() {
     <div className="App">
       <h1>Bootstrap Table</h1>
       <Table striped variant='dark'>
-        <tbody>
+        <tbody>                         // tbody 
       <tr>
         <td>Name</td>
         <td>Email</td>
         <td>Contact</td>
       </tr>
       {
-        users.map((item, i)=>
+        users.map((item, i)=>            // define index
         item.contact ==='111'?
-        <tr key={i}>
+        <tr key={i}>                     // apply index
           <td>{item.name}</td>
           <td>{item.email}</td>
           <td>{item.contact_No}</td>
