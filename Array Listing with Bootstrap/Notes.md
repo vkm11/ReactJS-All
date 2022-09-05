@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <h1>Bootstrap Table</h1>
       <Table striped variant='dark'>
-        <tbody>                         // tbody 
+        <tbody>                         // tbody
       <tr>
         <td>Name</td>
         <td>Email</td>
@@ -43,3 +43,8 @@ function App() {
 }
 
 export default App;
+
+
+
+ERROR SOl:-  <tbody> and apply index
+  
