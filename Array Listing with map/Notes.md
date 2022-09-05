@@ -1,4 +1,4 @@
-# Array Listing with map
+# Array Listing with map function
 ## Project Creating
 - npx create-react-app arraylist-with-map
 
@@ -16,7 +16,7 @@ import './App.css';
 
 const students=["vijay","kumar","Vijaykumar", "Mane"];
 
-// map looping
+// map function looping
 students.map((item)=>{
   console.log("my Name is:",item)
 });
@@ -38,7 +38,7 @@ export default App;
 
 
 ## Example-2
-# Why for loop is not using because return function can support map only.
+# Why for loop is not using because return function can support map function only.
 
 import './App.css';
 
