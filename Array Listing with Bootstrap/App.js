@@ -19,12 +19,11 @@ function App() {
       </tr>
       {
         users.map((item, i)=>
-        item.contact ==='111'?
         <tr key={i}>
           <td>{item.name}</td>
           <td>{item.email}</td>
           <td>{item.contact_No}</td>
-        </tr>:null
+        </tr>
         )
       }
       </tbody>
