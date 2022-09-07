@@ -1,3 +1,5 @@
+# Pure Component with state and props
+
 # Pure Component
  - it can be used only class component
  
