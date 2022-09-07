@@ -50,3 +50,42 @@ export default App;
 ### when we write child component div then it showing error
 - becouse of this Error we can using fragment empty tag <> , </>
 - Warning: validateDOMNesting(...): <td> cannot appear as a child of <div>
+
+  
+  ## Ex:
+ - App.js
+  
+import './App.css';
+import React from 'react'
+import Cols  from './Cols';
+function App() {
+  return (
+    <div>
+      <h1>React Fragments</h1>
+      <table>
+        <tbody>
+          <tr>
+            <Cols />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+export default App;
+
+  
+  
+- Cols.js
+  
+function Cols()
+{
+    return(
+        <> // don't use here div you can use means showing error in console
+            <td>Vijay</td>
+            <td>Mane</td>
+        </>
+    )
+}
+export default Cols;
