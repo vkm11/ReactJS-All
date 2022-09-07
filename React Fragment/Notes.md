@@ -43,3 +43,10 @@ function App() {
 
 export default App;
 
+
+
+
+## Why we use Fragment
+### when we write child component div then it showing error
+- becouse of this Error we can using fragment empty tag <> , </>
+- Warning: validateDOMNesting(...): <td> cannot appear as a child of <div>
