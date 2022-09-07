@@ -122,5 +122,5 @@ class User extends PureComponent {
 export default User;
 
 
-## Memo (Hook)
+## useMemo (Hook)
 - it can be used only function component
